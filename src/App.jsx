@@ -5,6 +5,7 @@ import "./App.css";
 
 import EditIcon from "@mui/icons-material/Edit";
 import DeleteIcon from "@mui/icons-material/Delete";
+
 function App() {
   const [tasks, setTasks] = useState([
     { id: 1, text: "Task 1", completed: false },
